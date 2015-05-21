@@ -8,7 +8,8 @@
   <nav id="nav-1">
   <a class="link-1" href="http://localhost/landingpage/index.php">Home</a>
   <a class="link-1" href="http://localhost/landingpage/about.php">About</a>
-  <a class="link-1" href="#">Contact</a>
+  <a class="link-1" href="#">Projects</a>
+  <a class="link-1" href="http://localhost/landingpage/contact.php">Contact</a>
 </nav>
 
 
@@ -34,5 +35,6 @@
 </div>
 
 </body>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
 </html>
