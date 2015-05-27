@@ -4,7 +4,7 @@ body{
 
 }
 
-#container {
+/#container {
   width: 400px;
   margin: 0 auto;
   margin-top: 25%;
@@ -292,4 +292,55 @@ a:hover {
 	html,body{
 		background-image: url("http://www.crazythemes.com/images/iphone-wallpapers-2.jpg");
 	}
+}
+/*carosel*/
+/*.carousel-fade {
+  .carousel-inner {
+    .item {
+      opacity: 0;
+      transition-property: opacity;
+    }
+
+    .active {
+      opacity: 1;
+    }
+
+    .active.left,
+    .active.right {
+      left: 0;
+      opacity: 0;
+      z-index: 1;
+    }
+
+    .next.left,
+    .prev.right {
+      opacity: 1;
+    }
+  }
+
+  .carousel-control {
+    z-index: 2;
+  }
+}
+
+
+
+html, 
+body, 
+.carousel, 
+.carousel-inner, 
+.carousel-inner .item {
+  height: 100%;
+}
+
+.item:nth-child(1) {
+  background: darkred;
+}
+
+.item:nth-child(2) {
+  background: red;
+}
+
+.item:nth-child(3) {
+  background: orange;
 }
